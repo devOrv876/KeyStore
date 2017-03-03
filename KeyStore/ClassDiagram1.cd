@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="KeyStore.BundleConfig" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.FilterConfig" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.RouteConfig" Collapsed="true">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.WebApiConfig" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.MvcApplication">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.Controllers.HomeController">
+    <Position X="12.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.Controllers.UserController">
+    <Position X="9.25" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAgAQAAACAAEAAAAAiAEAABABAAAAEUEAAAAAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.Models.LoginDeviceViewModel">
+    <Position X="2.75" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAQAAEA=</HashCode>
+      <FileName>Models\DeviceLoginViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.Models.NewUserViewModel">
+    <Position X="11.75" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\NewUserViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.Models.RegistrationsViewModel">
+    <Position X="7.75" Y="1" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAIAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RegisteredViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.Models.RegisterNewDeviceViewModel">
+    <Position X="5.5" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAgAAAQAAAAQAAEA=</HashCode>
+      <FileName>Models\RegisterNewDeviceViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyStore.Services.InMemoryUserRepository" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAEAAAIAAAEIAAAAAAAABEAAAFAAAAAAAAAA=</HashCode>
+      <FileName>Services\InMemoryUserRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="KeyStore.Services.IUserRepository" Collapsed="true">
+    <Position X="0.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAEIAAAAAAAABEAAAFAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IUserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="KeyStore.Services.Interfaces.IDataContext" Collapsed="true">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAQAAAEAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IDataContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="KeyStore.Services.Interfaces.IMemberShipService1" Collapsed="true">
+    <Position X="0.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACAAAAAAEEAAAAAAAAAAAAAAAAAACAAAAAQAAEAA=</HashCode>
+      <FileName>Services\Interfaces\IMemberShipService1.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

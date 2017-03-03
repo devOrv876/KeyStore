@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FidoU2f.FidoUniversalTwoFactor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgCAQgBQAAAAAQAYAAAAAAAAEQAAAAAoAAAIAAAAAAA=</HashCode>
+      <FileName>FidoUniversalTwoFactor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.GenerateRandomFidoChallenge" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>GenerateRandomFidoChallenge.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Helpers" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Helpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.WebSafeBase64Converter" Collapsed="true">
+    <Position X="7" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>WebSafeBase64Converter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Models.FidoAppId" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAEgAEAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\FidoAppId.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoAttestationCertificate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACIAACAAAAEgAAAAAAABAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Models\FidoAttestationCertificate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoAuthenticateResponse" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAACAAAAAAQAAABQAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\FidoAuthenticateResponse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoClientData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAACAAACAAAAAAQAAAAAABAAAAAAAKQAAAAgAAEA=</HashCode>
+      <FileName>Models\FidoClientData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoDeviceRegistration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAACAAAAAgQAAAAQAAQAAAAAAIAABAEAAAAA=</HashCode>
+      <FileName>Models\FidoDeviceRegistration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoFacetId" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAQE=</HashCode>
+      <FileName>Models\FidoFacetId.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoKeyHandle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAAAAEgIAAAAAABAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Models\FidoKeyHandle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoPublicKey" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAAAAEgIAAAAQABAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Models\FidoPublicKey.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoRegisterResponse" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAQAAABAQAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\FidoRegisterResponse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoRegistrationData" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAACAAAAAAgAAAAAABAAAIEAAAABBAEAAAAE=</HashCode>
+      <FileName>Models\FidoRegistrationData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Models.FidoSignature" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAAAAEgIAAAAAABAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Models\FidoSignature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoSignatureData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAACAAAAAAAAAAAAABQAAIEAAAABAAAAAAAE=</HashCode>
+      <FileName>Models\FidoSignatureData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FidoU2f.Models.FidoStartedAuthentication" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>Models\FidoStartedAuthentication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Models.FidoStartedRegistration" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>Models\FidoStartedRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Serializers.FidoAppIdConverter" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Serializers\FidoAppIdConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Serializers.FidoAttestationCertificateConverter" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Serializers\FidoAttestationCertificateConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Serializers.FidoClientDataConverter" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Serializers\FidoClientDataConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Serializers.FidoFacetIdConverter" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Serializers\FidoFacetIdConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Serializers.FidoKeyHandleConverter" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Serializers\FidoKeyHandleConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Serializers.FidoPublicKeyConverter" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Serializers\FidoPublicKeyConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Serializers.FidoRegistrationDataConverter" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Serializers\FidoRegistrationDataConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Serializers.FidoSignatureConverter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Serializers\FidoSignatureConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FidoU2f.Serializers.FidoSignatureDataConverter" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Serializers\FidoSignatureDataConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FidoU2f.IFidoUniversalTwoFactor" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAIAAAAAAAAAQAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>IFidoUniversalTwoFactor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FidoU2f.IGenerateFidoChallenge" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>IGenerateFidoChallenge.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FidoU2f.Models.IValidate" Collapsed="true">
+    <Position X="4" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IValidate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
